@@ -48,7 +48,7 @@ export default function Home() {
               highlightedText="Excellence."
             />
             <p className="text-gray-700 leading-relaxed mb-6">
-              Founded by Divyanshu Jha, Aagman Realty Ventures LLP was born out of a simple necessity: the need for a unified approach to real estate. In an industry often fragmented by multiple vendors and misaligned goals, Aagman serves as a single-point collaborator for businesses that value time, efficiency, and fiscal intelligence.
+              Aagman Realty Ventures LLP was born out of a simple necessity: the need for a unified approach to real estate. In an industry often fragmented by multiple vendors and misaligned goals, Aagman serves as a single-point collaborator for businesses that value time, efficiency, and fiscal intelligence.
             </p>
             <p className="text-gray-700 leading-relaxed mb-8">
               "Aagman" signifies the advent of a new standard. We don't just find spaces; we build, optimize, and sustain them.
@@ -63,7 +63,6 @@ export default function Home() {
               When I founded Aagman, I did so to eliminate the 'fragmentation gap.' Usually, a company talks to a broker to find a space, an architect to design it, and a contractor to build it. At Aagman, we consolidate these functions to ensure your vision and budget stay aligned from Day 1.
             </p>
             <p className="text-brand-grey font-bold uppercase tracking-widest text-sm">
-              — Divyanshu Jha, Founder
             </p>
           </div>
         </div>

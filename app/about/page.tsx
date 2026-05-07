@@ -29,7 +29,7 @@ export default function About() {
             <div>
               <div className="prose prose-lg text-gray-700 space-y-6">
                 <p>
-                  Founded by Divyanshu Jha, Aagman Realty Ventures LLP was born out of a simple necessity: the need for a unified approach to real estate. In an industry often fragmented by multiple vendors and misaligned goals, Aagman serves as a single-point collaborator for businesses that value time, efficiency, and fiscal intelligence.
+                  Aagman Realty Ventures LLP was born out of a simple necessity: the need for a unified approach to real estate. In an industry often fragmented by multiple vendors and misaligned goals, Aagman serves as a single-point collaborator for businesses that value time, efficiency, and fiscal intelligence.
                 </p>
                 <p>
                   "Aagman" signifies the advent of a new standard. We don't just find spaces; we build, optimize, and sustain them.
@@ -47,7 +47,7 @@ export default function About() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-1 bg-brand-gold"></div>
                   <div>
-                    <p className="font-bold text-brand-dark uppercase tracking-wider text-sm">Divyanshu Jha</p>
+                    <p className="font-bold text-brand-dark uppercase tracking-wider text-sm"></p>
                     <p className="text-gray-500 text-sm">Founder</p>
                   </div>
                 </div>

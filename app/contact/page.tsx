@@ -50,7 +50,6 @@ export default function Contact() {
                   Aagman Realty Ventures LLP
                 </h3>
                 <p className="text-gray-500 mb-8 pb-8 border-b border-gray-100">
-                  Founder: Divyanshu Jha
                 </p>
                 
                 <ul className="space-y-6">

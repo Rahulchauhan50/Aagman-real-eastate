@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -7,7 +8,8 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="font-heading font-bold text-2xl text-brand-dark tracking-wider uppercase">
-              Aagman<span className="text-brand-gold">.</span>
+              {/* <Image width={220} height={220} src="/logo.png" alt="InnoTech Solutions Logo" className="h-8 w-auto mr-2" /> */}
+              <img src="/logo.png" alt="InnoTech Solutions Logo" className="h-22 w-auto mr-2" />
             </Link>
           </div>
           <nav className="hidden md:flex space-x-8 items-center">
