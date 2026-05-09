@@ -8,6 +8,7 @@ export const metadata = {
 
 export default function About() {
   return (
+    // main
     <div className="bg-brand-cream">
       {/* Hero Section */}
       <section className="bg-brand-darkDeep text-white py-20 px-4 sm:px-6 lg:px-8 border-b-4 border-brand-gold">
