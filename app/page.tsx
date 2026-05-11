@@ -5,11 +5,21 @@ import CTASection from '@/components/CTASection';
 export default function Home() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-brand-dark to-brand-darkDeep text-white overflow-hidden">
-        {/* Background Decorative Elements */}
-        <div className="absolute top-[-100px] right-[-100px] w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(201,168,76,0.15)_0%,transparent_70%)] pointer-events-none"></div>
-        <div className="absolute bottom-[-80px] left-[-80px] w-[400px] h-[400px] rounded-full bg-[radial-gradient(circle,rgba(201,168,76,0.1)_0%,transparent_70%)] pointer-events-none"></div>
+      <section className="relative text-white overflow-hidden">
+        {/* Background Video */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          {/* Replace this URL with a local '/hero-video.mp4' once you add it to the public folder */}
+          <source src="/realEstate.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Dark Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-brand-dark/40 z-0"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative z-10">
           <div className="max-w-3xl">
