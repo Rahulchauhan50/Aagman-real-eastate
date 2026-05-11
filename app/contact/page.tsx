@@ -59,7 +59,7 @@ export default function Contact() {
                   </li>
                   <li className="pb-4 border-b border-gray-50">
                     <span className="block text-gray-500 text-xs font-bold tracking-widest uppercase mb-1">Email Address</span>
-                    <span className="font-medium text-brand-dark">contact@aagman.in</span>
+                    <span className="font-medium text-brand-dark"> aagmanrealtyventuresllp@gmail.com</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-50">
                     <span className="text-gray-500 text-xs font-bold tracking-widest uppercase">GST</span>
