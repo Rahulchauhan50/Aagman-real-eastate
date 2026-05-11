@@ -11,7 +11,7 @@ export default function Header() {
     <header className="bg-white sticky top-0 z-50 border-b border-brand-cream shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex-shrink-0 flex items-center">
+          <div className="shrink-0 flex items-center">
             <Link href="/" className="font-heading font-bold text-2xl text-brand-dark tracking-wider uppercase">
               {/* <Image width={220} height={220} src="/logo.png" alt="InnoTech Solutions Logo" className="h-8 w-auto mr-2" /> */}
               <img src="/logo.png" alt="InnoTech Solutions Logo" className="h-22 w-auto mr-2" />
