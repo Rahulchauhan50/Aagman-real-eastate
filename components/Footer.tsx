@@ -33,7 +33,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="lg:text-right">
+          {/* <div className="lg:text-right">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-brand-goldLight mb-4">Statutory Info</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><span className="text-brand-gold">GST:</span> 09ACNFA8318A1ZG</li>
@@ -41,7 +41,7 @@ export default function Footer() {
               <li><span className="text-brand-gold">MSME:</span> UDYAM-UP-28-0211325</li>
               <li><span className="text-brand-gold">TAN:</span> MRTA29789E</li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="border-t border-brand-mid mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} Aagman Realty Ventures LLP. All rights reserved.</p>

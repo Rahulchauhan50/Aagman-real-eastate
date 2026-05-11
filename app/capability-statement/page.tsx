@@ -22,10 +22,10 @@ const differentiators = [
 
 const compliance = [
   { label: "Certificate of Incorporation", value: "ACW-7219" },
-  { label: "PAN Number", value: "ACNFA8318A" },
-  { label: "TAN Number", value: "MRTA29789E" },
-  { label: "GST Certificate", value: "09ACNFA8318A1ZG" },
-  { label: "MSME Registration", value: "UDYAM-UP-28-0211325" },
+  // { label: "PAN Number", value: "ACNFA8318A" },
+  // { label: "TAN Number", value: "MRTA29789E" },
+  // { label: "GST Certificate", value: "09ACNFA8318A1ZG" },
+  // { label: "MSME Registration", value: "UDYAM-UP-28-0211325" },
   { label: "Registered State", value: "Uttar Pradesh, India" }
 ];
 
@@ -147,11 +147,11 @@ export default function CapabilityStatement() {
           <h2 className="font-heading text-[28px] text-white mb-2">Ready to Build Together?</h2>
           <p className="text-[13px] text-white/75">Contact us to discuss your project requirements, leasing needs, or AMC proposals.</p>
         </div>
-        <div className="text-center md:text-right">
+        {/* <div className="text-center md:text-right">
           <div className="text-[11px] text-white/65 tracking-[2px] uppercase mb-1">Aagman Realty Ventures LLP</div>
           <div className="text-[12px] text-white font-semibold">GST: 09ACNFA8318A1ZG</div>
           <div className="text-[11px] text-white/65 mt-1">MSME: UDYAM-UP-28-0211325</div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

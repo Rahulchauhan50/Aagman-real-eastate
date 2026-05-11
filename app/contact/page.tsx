@@ -61,14 +61,14 @@ export default function Contact() {
                     <span className="block text-gray-500 text-xs font-bold tracking-widest uppercase mb-1">Email Address</span>
                     <span className="font-medium text-brand-dark"> aagmanrealtyventuresllp@gmail.com</span>
                   </li>
-                  <li className="flex justify-between items-center pb-2 border-b border-gray-50">
+                  {/* <li className="flex justify-between items-center pb-2 border-b border-gray-50">
                     <span className="text-gray-500 text-xs font-bold tracking-widest uppercase">GST</span>
                     <span className="font-medium text-brand-dark text-sm">09ACNFA8318A1ZG</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-50">
                     <span className="text-gray-500 text-xs font-bold tracking-widest uppercase">MSME</span>
                     <span className="font-medium text-brand-dark text-sm">UDYAM-UP-28-0211325</span>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
