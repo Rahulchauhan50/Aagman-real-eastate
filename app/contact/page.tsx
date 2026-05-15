@@ -1,4 +1,5 @@
 import SectionHeader from '@/components/SectionHeader';
+import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
   title: "Contact Aagman Realty Ventures LLP",
@@ -79,48 +80,7 @@ export default function Contact() {
                 Send Us a Message
               </h3>
               
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
-                    <input type="text" id="fullName" className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow" placeholder="John Doe" />
-                  </div>
-                  <div>
-                    <label htmlFor="companyName" className="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
-                    <input type="text" id="companyName" className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow" placeholder="Acme Corp" />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
-                    <input type="email" id="email" className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow" placeholder="john@example.com" />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
-                    <input type="tel" id="phone" className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow" placeholder="+91 XXXXX XXXXX" />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">Service Interested In</label>
-                  <select id="service" className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow bg-white">
-                    <option value="" disabled selected>Select a service...</option>
-                    {services.map((service, idx) => (
-                      <option key={idx} value={service}>{service}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                  <textarea id="message" rows={4} className="w-full border border-gray-300 rounded-sm px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-shadow" placeholder="Tell us about your requirement..."></textarea>
-                </div>
-
-                <button type="button" className="w-full bg-brand-dark text-white font-medium px-8 py-4 uppercase tracking-wider text-sm transition-colors hover:bg-brand-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-dark">
-                  Submit Inquiry
-                </button>
-              </form>
+              <ContactForm />
             </div>
             
           </div>
